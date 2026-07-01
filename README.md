@@ -12,6 +12,7 @@ A comprehensive portfolio management system with real-time market data, AI-power
 - **Transaction Tracking**: Record and monitor buy/sell transactions
 - **Interactive Dashboard**: Modern React UI with charts and visualizations
 - **RESTful API**: Comprehensive backend API with Swagger documentation
+<img width="1280" height="832" alt="image" src="https://github.com/user-attachments/assets/b5b7da4e-c6e8-4f45-bf69-27260e62ea0f" />
 
 ## 📋 Prerequisites
 
@@ -147,6 +148,9 @@ The service will start on **http://localhost:8000**
 - `POST /predict` - Get 7-day forecast for a ticker
 - `GET /latest_predict/{ticker}` - Auto-predict using latest 60 days
 
+<img width="1280" height="832" alt="image" src="https://github.com/user-attachments/assets/36d0fa20-9d6c-4fb0-9f5d-0e511e27eac3" />
+
+
 ### 6. Quantum Optimization Service Setup (Python/FastAPI)
 
 ```bash
@@ -188,6 +192,9 @@ The service will start on **http://localhost:8002**
 **Endpoints**:
 - `GET /recommend?portfolio_json={...}` - Get AI portfolio recommendations
 
+<img width="1280" height="832" alt="image" src="https://github.com/user-attachments/assets/6d81acdf-baea-4c68-9e81-619ecc1ce6dc" />
+
+
 ## 🚀 Running the Application
 
 ### Quick Start (All Services)
@@ -218,12 +225,15 @@ Press `Ctrl+C` to stop all services.
 cd backend
 ./mvnw spring-boot:run
 ```
+<img width="1280" height="832" alt="image" src="https://github.com/user-attachments/assets/582db822-dab2-4922-9b5f-ad3bbe49f74d" />
+
 
 #### Terminal 2: Stock Prediction Service
 ```bash
 cd stock_prediction
 python main.py
 ```
+<img width="1280" height="832" alt="image" src="https://github.com/user-attachments/assets/cbb17dfb-a21f-416a-8807-3e47d50477de" />
 
 #### Terminal 3: Quantum Service
 ```bash
@@ -353,6 +363,9 @@ cd backend
 cd frontend
 npm test
 ```
+
+<img width="1280" height="832" alt="image" src="https://github.com/user-attachments/assets/16e4b581-054a-4f42-89a9-350c74436f2c" />
+
 
 ### API Testing
 
@@ -500,6 +513,7 @@ curl -X POST http://localhost:8080/api/v1/assets \
 ```bash
 curl http://localhost:8080/api/v1/stocks/AAPL/quote
 ```
+<img width="1280" height="832" alt="image" src="https://github.com/user-attachments/assets/0d7205cf-a63b-442b-bfa2-495292383c5b" />
 
 ### Get Price Prediction
 
