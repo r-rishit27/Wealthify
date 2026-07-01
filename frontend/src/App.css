@@ -1,0 +1,11 @@
+/* Global app shell tweaks for dashboard-style layout */
+
+#root {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+body {
+  background-color: hsl(var(--background));
+}
